@@ -1,0 +1,91 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  li {
+    width: 11%;
+    border-color: #0FFFCF;
+    background-color:green;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+  li {
+    width: 13%;
+    border-color: #FFEF08;
+    background-color:red;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 999px) {
+  li {
+    width: 15%;
+    border-color: #48FF13;
+    background-color:green;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  li {
+    width: 20%;
+    border-color: #2E95FE;
+    background-color:red;
+  }
+}
+
+@media (max-width: 767px) {
+  li {
+    width: 35%;
+    border-color: #81FED1;
+    background-color:green;
+  }
+}
+
+@media (max-width: 480px) {
+  li {
+    width: 80%;
+    border-color: #FF4A5A;
+    background-color:red;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  float:left;
+  
+
+}
+img {
+	margin:0 auto;
+	height:70px;
+	width:70px;
+}
+li {
+  display: inline-block;
+  border-radius:5px;
+  border-style: outset;
+  border-width: 2px;
+  padding: 20px;
+  margin: 10px;
+  height: 120px;
+ 
+}
+.row p {
+	text-align: justified;
+}
